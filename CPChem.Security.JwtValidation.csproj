@@ -33,12 +33,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="JwtAuthExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="JwtAuthExtensions.cs" />
   </ItemGroup>
 
   <ItemGroup>

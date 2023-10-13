@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CPChem.Security.JwtValidation
@@ -46,8 +43,8 @@ namespace CPChem.Security.JwtValidation
                     {
                         var token = (JwtSecurityToken)context.SecurityToken;
                         var tid = token.Claims.FirstOrDefault(c => c.Type == "tid");
-                        if (tid == null || 
-                            string.IsNullOrEmpty(tid.Value) || 
+                        if (tid == null ||
+                            string.IsNullOrEmpty(tid.Value) ||
                             tid.Value != jwtOptions.TenantId)
                         {
                             context.Fail("Invalid Tenant ID ('tid') in token.");
