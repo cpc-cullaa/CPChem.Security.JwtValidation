@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CPChem.Security.JwtValidation", "CPChem.Security.JwtValidation.csproj", "{2C9D7C67-5B93-4029-8F2E-2F8FF8B340E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPChem.Security.JwtValidation.Tests", "CPChem.Security.JwtValidation.Tests\CPChem.Security.JwtValidation.Tests.csproj", "{A777718D-001B-40C4-AC63-C1D34FF2C687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C9D7C67-5B93-4029-8F2E-2F8FF8B340E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C9D7C67-5B93-4029-8F2E-2F8FF8B340E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C9D7C67-5B93-4029-8F2E-2F8FF8B340E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C9D7C67-5B93-4029-8F2E-2F8FF8B340E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A777718D-001B-40C4-AC63-C1D34FF2C687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A777718D-001B-40C4-AC63-C1D34FF2C687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A777718D-001B-40C4-AC63-C1D34FF2C687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A777718D-001B-40C4-AC63-C1D34FF2C687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
